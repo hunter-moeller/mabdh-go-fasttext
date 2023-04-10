@@ -39,7 +39,7 @@ go_fast_text_pair_t* GoFastTextPredict(void * ft, char * word, int k, float thre
 
   go_fast_text_pair_t* pairsArray = (go_fast_text_pair_t*) malloc(result_size * sizeof(go_fast_text_pair_t));
 
-  for (uint i = 0; i < uint(predictions.size()); i++){
+  for (size_t i = 0; i < uint(predictions.size()); i++){
     const std::string::size_type label_size = predictions[i].second.size();
     pairsArray[i].label = new char[label_size + 1];
     memcpy(pairsArray[i].label, predictions[i].second.c_str(), label_size + 1);
