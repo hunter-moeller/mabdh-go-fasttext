@@ -1,4 +1,4 @@
-module github.com/mabdh/go-fasttext
+module github.com/hunter-moeller/mabdh-go-fasttext
 
 go 1.15
 
