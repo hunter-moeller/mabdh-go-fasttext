@@ -1,7 +1,7 @@
 #include "gofasttext.h"
 #include <cstring>
 
-#include "/usr/local/include/fasttext/fasttext.h"
+#include "fasttext.h"
 
 using namespace fasttext;
 

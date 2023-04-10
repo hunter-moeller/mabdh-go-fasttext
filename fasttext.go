@@ -1,6 +1,6 @@
 package fasttext
 
-// #cgo CXXFLAGS: -std=c++11 -mcpu=apple-m1 -g -Wall -I/usr/local/include/fastText
+// #cgo CXXFLAGS: -std=c++11 -mcpu=apple-m1 -g -Wall -I/usr/local/include/fasttext
 // #cgo LDFLAGS: -L/usr/local/lib -lfasttext
 // #include "gofasttext.h"
 // #include <stdlib.h>
